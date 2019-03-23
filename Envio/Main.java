@@ -6,8 +6,7 @@ public class Main{
         
         RFC rfc =  new RFC("calle fiscal 123", "Orden 4");
         DataAdapter adapter = new DataAdapter();
-        String[] datos = {"calle entrega 456","",};
         Cliente cliente = new Cliente(rfc, 1, adapter);
-
+        cliente.generarEnvio();
     }
 }
