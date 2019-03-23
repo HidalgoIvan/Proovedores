@@ -1,7 +1,8 @@
+package envio;
 public class RFC
 {
 	private String direccionFiscal;
-	private Stirng razonSocial;
+	private String razonSocial;
 	public RFC(String direccionFiscal, String razonSocial)
 	{
 		this.direccionFiscal = direccionFiscal;
