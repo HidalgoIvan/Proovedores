@@ -11,8 +11,8 @@ public class Cliente
 		this.datos = datos;
 		this.dataAdapter = dataAdapter;
 	}
-	public void generarEnvio(String datos, rfc)
+	public void generarEnvio(String datos)
 	{
-		dataAdapter.generarEnvio(String[] datos, RFC rfc);
+		dataAdapter.generarEnvio(String[] datos);
 	}
 }
