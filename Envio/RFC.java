@@ -7,4 +7,8 @@ public class RFC
 		this.direccionFiscal = direccionFiscal;
 		this.razonSocial = razonSocial;
 	}
+	public String getDireccionFiscal()
+	{
+		return this.direccionFiscal;
+	}
 }

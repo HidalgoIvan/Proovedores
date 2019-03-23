@@ -13,7 +13,7 @@ public class DataAdapter
 	{
 
 	}
-	public void adaptarDatos(String[] datos)
+	public void adaptarDatos(String[] datos, RFC rfc)
 	{
 		int id = Integer.parseInt(datos[0]);
 		String direccionEntrega = datos[1];
@@ -21,7 +21,7 @@ public class DataAdapter
 
 		generaEnvio();
 	}
-	private void generaEnvio(String datos)
+	private void generaEnvio(String[] datos, RFC rfc)
 	{
 
 	}
